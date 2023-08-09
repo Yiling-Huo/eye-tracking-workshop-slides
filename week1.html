@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white-cus.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+                    ## Week 1
+                    ### Introduction to the Human Visual System and the Eye-tracking Method
+                </section>
+				<section>
+                    <h3>Today's roadmap</h3>
+                    <ul>
+                        <li class="fragment">How eye-tracking works</li>
+                        <li class="fragment">Eye-tracking and visual attention</li>
+                        <li class="fragment">Application of the eye-tracking method in language research: an overview</li>
+                    </ul>
+                </section>
+                <section data-auto-animate data-auto-animate-id="2">
+                    <h3>How eye-tracking works</h3>
+                </section>
+                <section data-auto-animate data-auto-animate-id="2">
+                    <h3>How eye-tracking works</h3>
+                    <h4>The human visual system</h4>
+                    <img src="./assets/eye.png"  width="40%">
+                </section>
+                <section data-auto-animate data-auto-animate-id="2">
+                    <h3>How eye-tracking works</h3>
+                    <h4>The human visual system</h4>
+                    <img src="./assets/eye.png"  width="40%"> <img src="./assets/visual-acuity.png"  width="40%">
+                </section>
+                <section data-auto-animate data-auto-animate-id="2">
+                    <h3>How eye-tracking works</h3>
+                    <h4>The human visual system</h4>
+                    <ul>
+                        <li class="fragment">Cones - light receptor cells responsible for detailed vision - are the most dense at the fovea.</li>
+                        <li class="fragment">Visual acuity is the highest around the fovea.</li>
+                        <li class="fragment">To compensate for lessened acuity outside the fovea, we must frequently move our eyes .</li>
+                    </ul>
+                </section>
+                <section data-auto-animate data-auto-animate-id="3">
+                    <h3>How eye-tracking works</h3>
+                    <h4>Types of eye movements</h4>
+                </section>
+                <section data-auto-animate data-auto-animate-id="3">
+                    <h3>How eye-tracking works</h3>
+                    <h4>Types of eye movements</h4>
+                    <ul>
+                        <li>Fixations</li>
+                        <li>Saccades</li>
+                        <li>Smooth pursuits</li>
+                    </ul>
+                </section>
+                <section data-auto-animate data-auto-animate-id="3">
+                    <h3>How eye-tracking works</h3>
+                    <h4>Types of eye movements</h4>
+                    <ul>
+                        <li>Fixations</li>
+                        <li>Saccades</li>
+                        <li>Smooth pursuits</li>
+                    </ul>
+                    <video controls src="./assets/fixations-and-saccades.webm" width="40%"></video>
+                </section>
+                <section data-auto-animate data-auto-animate-id="3">
+                    <h3>How eye-tracking works</h3>
+                    <h4>Types of eye movements</h4>
+                    <ul>
+                        <li>Fixations</li>
+                        <li>Saccades</li>
+                        <li>Smooth pursuits</li>
+                    </ul>
+                    <video controls src="./assets/smooth-pursuit.webm" width="40%"></video>
+                </section>
+                <section data-auto-animate data-auto-animate-id="4">
+                    <h3>How eye-tracking works</h3>
+                    <h4>Modern eye-tracking techniques</h4>
+                </section>
+                <section data-auto-animate data-auto-animate-id="4">
+                    <h3>How eye-tracking works</h3>
+                    <h4>Modern eye-tracking techniques</h4>
+                    <p>Two types of eye movement measurements:</p>
+                    <ul>
+                        <li class="fragment">The position of the eye relative to the head</li>
+                        <li class="fragment">The point of regard (the orientation of the eye in space)</li>
+                    </ul>
+                </section>
+                <section data-auto-animate data-auto-animate-id="4">
+                    <h3>How eye-tracking works</h3>
+                    <h4>Modern eye-tracking techniques</h4>
+                    <p>Two types of eye movement measurements:</p>
+                    <ul>
+                        <li>The position of the eye relative to the head</li>
+                        <li><b>The point of regard (the orientation of the eye in space)</b></li>
+                    </ul>
+                </section>
+                <section data-auto-animate data-auto-animate-id="4">
+                    <h3>How eye-tracking works</h3>
+                    <h4>Modern eye-tracking techniques</h4>
+                    <p>Modern techniques to measure the point of regard:</p>
+                    <ul>
+                        <li class="fragment">Video-based corneal reflection eye trackers
+                            <ul>
+                                <li class="fragment">Corneal-reflection (of an infra-red light source)</li>
+                                <li class="fragment">Pupil center</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section data-auto-animate data-auto-animate-id="4">
+                    <h3>How eye-tracking works</h3>
+                    <h4>Modern eye-tracking techniques</h4>
+                    <p>Modern techniques to measure the point of regard:</p>
+                    <ul>
+                        <li>Video-based corneal reflection eye trackers</li>
+                    </ul>
+                    <p><img src="./assets/eyelink-setup.jpg"  width="40%"> <img src="./assets/eyelink-camera.png"  width="40%"></p>
+                </section>
+                <section>
+                    <h3>How eye-tracking works</h3>
+                    <h4>Modern eye-tracking techniques</h4>
+                    <p><img src="./assets/sample-data-freeview.webp"  width="70%"></p>
+                </section>
+                <section data-auto-animate data-auto-animate-id="4">
+                    <h3>How eye-tracking works</h3>
+                    <h4>Modern eye-tracking techniques</h4>
+                    <p>Going beyond eye movements:</p>
+                    <ul>
+                        <li class="fragment">Modern eye trackers can usually provide more information than the point of regard (e.g. pupil size)</li>
+                        <li style="list-style-type: none; text-align: center;" class="fragment"><img src="./assets/pupillometry.jpg"  width="40%"></li>
+                        <li class="fragment">These measures are being used in psychology-related research fields including language</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Eye-tracking and visual attention</h3>
+                </section>
+                <section data-auto-animate data-auto-animate-id="5">
+                    <h3>Eye-tracking and visual attention</h3>
+                    <ul>
+                        <li class="fragment">Eye movements are highly correlated with visual attention</li>
+                        <li class="fragment">Attention allows us to selectively process information</li>
+                        <li class="fragment">By tracking eye movement, we follow the observer's visual attention...</li>
+                        <li class="fragment">...and gain insight of how the observer is processing the scene</li>
+                    </ul>
+                </section>
+                <section data-auto-animate data-auto-animate-id="5">
+                    <h3>Eye-tracking and visual attention</h3>
+                    <ul>
+                        <li>
+                            During free-viewing of a scene: fixations usually center on interesting/informative areas of the image
+                        </li>
+                    </ul>
+                    <p><img src="./assets/wooding-fig2.png"  width="50%"></p>
+                </section>
+                <section data-auto-animate data-auto-animate-id="5">
+                    <h3>Eye-tracking and visual attention</h3>
+                    <ul>
+                        <li>
+                            During free-viewing of a scene: fixations usually center on interesting/informative areas of the image
+                        </li>
+                    </ul>
+                    <p><video controls src="./assets/sample-data-freeview2.webm" width="65%"></video></p>
+                </section>
+                <section data-auto-animate data-auto-animate-id="5">
+                    <h3>Eye-tracking and visual attention</h3>
+                    <ul>
+                        <li>
+                            During free-viewing of a scene: fixations usually center on interesting/informative areas of the image
+                        </li>
+                    </ul>
+                    <p><img src="./assets/sample-data-freeview2.webp"  width="65%"></p>
+                </section>
+                <section data-auto-animate data-auto-animate-id="5">
+                    <h3>Eye-tracking and visual attention</h3>
+                    <ul>
+                        <li>
+                            During free-viewing of a scene: fixations usually center on interesting/informative areas of the image
+                        </li>
+                    </ul>
+                    <p><video controls src="./assets/sample-data-freeview3.webm" width="65%"></video></p>
+                </section>
+                <section data-auto-animate data-auto-animate-id="5">
+                    <h3>Eye-tracking and visual attention</h3>
+                    <ul>
+                        <li>
+                            During free-viewing of a scene: fixations usually center on interesting/informative areas of the image
+                        </li>
+                    </ul>
+                    <p><img src="./assets/sample-data-freeview3.webp"  width="65%"></p>
+                </section>
+                <section data-auto-animate data-auto-animate-id="5">
+                    <h3>Eye-tracking and visual attention</h3>
+                    <p>More on visual attention:</p>
+                    <ul>
+                        <li class="fragment">
+                            Eye tracking can also provide insight into abnormal brain functioning.
+                        </li>
+                        <li class="fragment">For example, schizophrenic patients show more predictive eye movement than healthy controls, but perform worse in antisaccade tasks.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Eye-tracking in language research:</h3>
+                    <h3>an overview</h3>
+                </section>
+                <section data-auto-animate data-auto-animate-id="6">
+                    <h3>Eye-tracking in language research</h3>
+                    <p>Reading</p>
+                    <p><video controls src="./assets/sample-data-reading2.webm" width="65%"></video></p>
+                </section>
+                <section data-auto-animate data-auto-animate-id="6">
+                    <h3>Eye-tracking in language research</h3>
+                    <p>Reading</p>
+                    <p><img src="./assets/sample-data-reading2.webp"  width="70%"></p>
+                </section>
+                <section data-auto-animate data-auto-animate-id="6">
+                    <h3>Eye-tracking in language research</h3>
+                    <p>Reading</p>
+                    <p><ul>
+                        <li>Fixation pattern during reading is affected by many factors such as legibility and syntactic/conceptual difficulty.</li>
+                        <li>There is significant individual difference in eye</li>
+                    </ul></p>
+                </section>
+			</div>
+            <div class="logo"></div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+                slideNumber: 'c/t',
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
