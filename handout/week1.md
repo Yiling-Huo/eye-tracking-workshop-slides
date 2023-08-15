@@ -18,11 +18,11 @@ geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 # pandoc week1.md -o week1.pdf -d default.yml
 ---
 
-Eye-tracking is a very popular tool in psychological research, and is becoming more and more popular in research on language, as well. Although eye-tracking does not provide direct measurements of neural activity, it allows researchers to gain insight into human cognition and attention. 
+Eye-tracking is a very popular tool in psychology, and is becoming more and more popular in psycholinguistics, as well. Although eye-tracking does not provide direct measurements of neural activity, it allows researchers to gain insight into human cognition and attention. 
 
 ![Figure 1 in @carter2020best. Original caption: Total number of publications per year from 1968 to 2018 using the search term TOPIC: (“eye tracking” OR “eye-tracking” OR “eyetracking”) in Web of Science.](img/eye-tracking-papers.jpg){width=45%} 
 
-In these few weeks, I will give you a detailed introduction to the eye-tracking method and its application in research on reading as well as spoken language processing. In week 4 I will invite Kayla to talk about pupillometry, eye-tracking's cousin method, and its application to language research. In week 5, we will have the opportunity to go to the lab and I will show you a demo eye-tracking experiment. 
+In these few weeks, I will give you an introduction to the eye-tracking method and its application in research on reading as well as spoken language processing. In week 4 I will invite Kayla to talk about pupillometry, eye-tracking's cousin method, and its application to language research. In week 5, we will have the opportunity to go to the lab and I will show you a demo eye-tracking experiment. 
 
 # How eye-tracking works
 
