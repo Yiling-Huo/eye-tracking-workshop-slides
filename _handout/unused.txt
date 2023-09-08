@@ -1,0 +1,9 @@
+## Models of eye movement during reading
+
+### Low- vs. high-level information {-}
+
+Models of eye movement during reading can be categorized into two distinct types: *cognitive models* in which eye movements are mainly driven by high-level language processes (e.g. word recognition), and *primary oculomotor control* (POC) models in which low-level information (e.g. word length) is the main factor that determines eye movement. 
+
+### Sequential vs. parallel processing {-}
+
+Cognitive models of eye movement in reading can be further divided into two subclasses: models where words 

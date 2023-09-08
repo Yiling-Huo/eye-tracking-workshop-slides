@@ -8,7 +8,7 @@ csl: elsevier-vancouver.csl
 reference-section-title: "References"
 
 nocite: |
-  @duchowski2017eye, @carrasco2011visual, @carter2020best, @rayner1998eye, @tanenhaus2007eye, @richardson2004eye
+  @carrasco2011visual, @carter2020best, @duchowski2017eye, @rayner1998eye, @richardson2004eye, @tanenhaus2007eye
 
 # Pandoc md YAML
 geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
@@ -56,7 +56,7 @@ Why is eye-tracking important? In simple words, our eye movements are highly cor
 
 How are these coupled mechanisms of attention and eye movement deployed when a scene is viewed? First, fixations usually center on interesting/informative areas of an image, while blank or uniform areas are usually uninspected. Wooding and colleagues collected real-life eye movement data from a large number of participants viewing artworks in a public museum, and discovered that fixations are not spread evenly or randomly over the stimulus images, but cluster into regions of interest according to the features of the stimulus [@wooding2002eye] (Figure \ref{wooding-fig2}). Regions of interest are determined by both bottom-up factors such as spatial frequency and contrast, and top-down factors such as the viewer's knowledge, memory, beliefs, or goals. 
 
-![Figure 2 in @wooding2002eye. Original caption: (A) The original image N0931 (copyright the National Gallery Co. Ltd). (B) Map of fixations of 131 traces. (C) The contour plot corresponding to the map in panel B. (D) The image redrawn with areas receiving higher numbers of fixations appearing brighter. \label{wooding-fig2}](img/wooding-fig2.png){width=65%}
+![Illustration of visual attention during scene perception. Extract from @wooding2002eye. Original caption: (A) The original image N0931 (copyright the National Gallery Co. Ltd). (B) Map of fixations of 131 traces. (C) The contour plot corresponding to the map in panel B. (D) The image redrawn with areas receiving higher numbers of fixations appearing brighter. \label{wooding-fig2}](img/wooding-fig2.png){width=65%}
 
 # Applications of the eye-tracking method in language research
 
