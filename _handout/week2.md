@@ -1,6 +1,6 @@
 ---
-title: "Week 2"
-subtitle: "Reading"
+title: "Week 2: Reading"
+# subtitle: "Reading"
 author: "Yiling Huo"
 date: \today
 bibliography: eye-tracking-method.bib
@@ -71,7 +71,9 @@ While parafoveal vision has many limitations, the boundary paradigm has shown th
 
 ### Where to move the eyes {-}
 
-In languages with interword spaces such as English, word length and interword space is the most important factor affecting a saccade's landing site. Some evidence also shows that readers benefit from interword spaces in Thai which usually does not have spaces. 
+When we're finished with processing a word during reading, we make a saccade to move our gaze to the next position. This is quite an automatic process that is controlled by a few non-linguistic as well as linguistic factors. 
+
+In languages with interword spaces such as English, word length (of the fixated word and the next word) and interword space are the most important factors affecting a saccade's landing site. Some evidence also shows that readers benefit from interword spaces in Thai which usually does not have spaces. 
 
 There is a preferred viewing location at which the eyes typically land in a word, which is halfway between the beginning of the word and the middle of the word. Landing at a nonoptimal position in a word (as a result of experimental manipulation) results in longer reading time once the word is fixated. 
 

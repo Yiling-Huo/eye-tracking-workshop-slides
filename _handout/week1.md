@@ -1,6 +1,6 @@
 ---
-title: "Week 1"
-subtitle: "Introduction to the Human Visual System and the Eye-tracking Method"
+title: "Week 1: Introduction to the Human Visual System and the Eye-tracking Method"
+# subtitle: "Introduction to the Human Visual System and the Eye-tracking Method"
 author: "Yiling Huo"
 date: \today
 bibliography: eye-tracking-method.bib
