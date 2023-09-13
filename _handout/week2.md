@@ -121,7 +121,7 @@ Consider the word *oven* in (\ref{oven}). *Oven* is much more predictable in (\r
 The woman took the warm cake out of the oven and frosted it. \\
 \ex
 \label{oven2}
-The woman walked over to the over and opened it. \\
+The woman walked over to the oven and opened it. \\
 \end{xlist}
 \end{exe}
 ```
