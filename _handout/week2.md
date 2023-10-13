@@ -35,6 +35,21 @@ You may have noticed that saccade length is measured in letter spaces rather tha
 
 Eye movements are not exactly the same across different writing systems. For example, readers of Chinese (where a character corresponds to a morpheme) typically move their eyes about 2 characters with a saccade; and readers of Japanese (where a character corresponds to a morpheme (*kanji*) or a syllable (*kana*)) have an average saccade length of 3.5 characters. In Hebrew, where vowels are often not represented orthographically, the average saccade length is also shorter than in English (5.5 characters/letters vs. 7-9 letters). The difference in saccade length across languages can be attributed to the difference in information density: while a word is on average 5 letters in English, it is about 2 characters in Chinese and Japanese. When the number of words is considered rather than the number of letters/characters, the average saccade lengths in English, Chinese, Japanese, and Hebrew are roughly comparable. 
 
+> Common measures you may see in a reading eye-tracking experiment:
+>
+> On the word level:
+>
+> - First-fixation duration: the duration of the first fixation on a word.
+> - Single-fixation duration: those cases where only a single fixation is made on a word. 
+> - Gaze duation: the sum of all fixations on a word prior to moving to another word. 
+> 
+> On the region of interest (ROI) level:
+> 
+> - First-pass duration: the amount of time from when a reader first fixates on a region to when they first leave that region.
+> - Go-past duration/Regression path duration: the amount of time from when a reader first fixates on a region to when they first leave that region to the right (if language is written left-to-right). 
+> - Second-pass duration: the sum of all refixations on a region of text after the eye has already moved past that region in the text. 
+> - Total duration: the sum of initial processing of a target region (i.e., first-pass duration) and any subsequent rereading of that region (i.e., second-pass duration). 
+
 # Word processing during reading
 
 ## Experimental paradigms

@@ -45,8 +45,14 @@ Data collected in a visual world experiment is essentially the gaze position at 
 
 ## Production studies
 
-In production studies, participants see sets of objects or cartoons of events or actions. No spoken input is presented, but instead the participants are asked to describe what they see. Researchers typically determine which objects are inspected, in which order they are inspected, and when they are inspected relative to the participants'speech output. This provides information about the ways speakers coordinate the generation of utterance plans with the overt articulation. 
+In production studies, participants see sets of objects or cartoons of events or actions. No spoken input is presented, but instead the participants are asked to describe what they see. Researchers typically determine which objects are inspected, in which order they are inspected, and when they are inspected relative to the participants' speech output. This provides information about the ways speakers coordinate the generation of utterance plans with the overt articulation. 
 
 # Comprehension
+
+## Cooper (1974) @cooper1974control and Allopenna et al. (1998) @allopenna1998tracking
+
+One of the first classic studies of spoken language in the visual world was by Roger Cooper (1974). Cooper tracked participants' eye movements as they listened to stories while looking at a display of pictures. He found that participants initiated saccades to pictures that were named in the stories, as well as pictures that were associated with words in the story (Africa - lion, zebra, snake). Moreover, fixations were often generated before the end of the word. This provides important evidence that visual attention is highly correlated with spoken language processing. 
+
+Allopenna et al. (1998) had participants follow spoken instructions to pick out objects shown on the screen (e.g. "Pick up the beaker."). Four objects were shown on the screen: the referent (beaker), a cohort (beetle), a rhyme (speaker), and an unrelated object (carriage). Allopenna et al. observed a (non-linear) rising curve for the probability of fixating on the referent, and a rising-then-falling curve for the probability of fixating on phonologically overlapping objects (the cohort and the rhyme). This provides evidence for a continuous lexical access model during spoken word recognition where all candidates that are temporarily consistent with the speech signal are activated before the speech signal provides enough information to identify the single correct lexical item. 
 
 # Production
