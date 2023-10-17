@@ -218,7 +218,7 @@ As multiple structural analyses compete in parallel models, processing difficult
 
 Returning to the issue of nonstructural factors in syntactic parsing, some recent elaborations of serial models [@van2014evidence] hold that parsing decisions are probabilistic rather than deterministic, thus allowing for the participation of nonstructural factors in forming the single fully constructed interpretation. 
 
-# Conclusions
+# Summary
 
 Today we have looked at word processing and sentence processing in reading and how eye-tracking evidence has contributed to some of the core issues on these topics. 
 

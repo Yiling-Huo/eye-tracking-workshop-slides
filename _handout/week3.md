@@ -47,12 +47,30 @@ Data collected in a visual world experiment is essentially the gaze position at 
 
 In production studies, participants see sets of objects or cartoons of events or actions. No spoken input is presented, but instead the participants are asked to describe what they see. Researchers typically determine which objects are inspected, in which order they are inspected, and when they are inspected relative to the participants' speech output. This provides information about the ways speakers coordinate the generation of utterance plans with the overt articulation. 
 
-# Comprehension
+# Using the visual world paradigm to study...
 
-## Cooper (1974) @cooper1974control and Allopenna et al. (1998) @allopenna1998tracking
+## Word recognition
 
-One of the first classic studies of spoken language in the visual world was by Roger Cooper (1974). Cooper tracked participants' eye movements as they listened to stories while looking at a display of pictures. He found that participants initiated saccades to pictures that were named in the stories, as well as pictures that were associated with words in the story (Africa - lion, zebra, snake). Moreover, fixations were often generated before the end of the word. This provides important evidence that visual attention is highly correlated with spoken language processing. 
+### Allopenna et al. (1998) @allopenna1998tracking {-}
 
 Allopenna et al. (1998) had participants follow spoken instructions to pick out objects shown on the screen (e.g. "Pick up the beaker."). Four objects were shown on the screen: the referent (beaker), a cohort (beetle), a rhyme (speaker), and an unrelated object (carriage). Allopenna et al. observed a (non-linear) rising curve for the probability of fixating on the referent, and a rising-then-falling curve for the probability of fixating on phonologically overlapping objects (the cohort and the rhyme). This provides evidence for a continuous lexical access model during spoken word recognition where all candidates that are temporarily consistent with the speech signal are activated before the speech signal provides enough information to identify the single correct lexical item. 
 
-# Production
+## Sentence processing
+
+### Cooper (1974) @cooper1974control  {-}
+
+One of the first classic studies of spoken language in the visual world was by Roger Cooper (1974). Cooper tracked participants' eye movements as they listened to stories while looking at a display of pictures. He found that participants initiated saccades to pictures that were named in the stories, as well as pictures that were associated with words in the story (Africa - lion, zebra, snake). Moreover, fixations were often generated before the end of the word. This provides important evidence that visual attention is highly correlated with spoken sentence processing. 
+
+![Example visual display in @@cooper1974control. Extract from @cooper1974control. \label{cooper1974}](img\cooper-1976-visual.png)
+
+### Effect of the visual context: Tanenhaus et al. (1995) @tanenhaus1995integration {-}
+
+To fully understand any visual world experiment, we need to be aware that the visual display itself may have an effect on how the listeners interpret the sentence. Tanenhause et al. (1995) is one of the most classic studies that demonstrate this. Tanenhaus and colleagues presented participants with sentences such as “Put the apple on the towel in the box”, where the first prepositional phrase (“on the towel” in the example) is temporarily ambiguous between denoting the destination of the apple or its current location. In the one-referent condition of the experiment participants saw just one apple on a towel, an empty towel, a box, and a pencil. In the two-referent condition there were two apples: one on a towel and one on a napkin. In this condition, a modifier was needed to inform the listener which of the two apples should be moved. They found that there were significantly more early looks to the empty towel in the one-referent than in the two-referent condition. This is strong evidence that listeners can use visual information immediately to disambiguate sentence structures. Not only does this study tell us to be a bit careful about the visual display when designing a visual world experiment, it also shows that language processing is subject to a broad range of linguistic as well as non-linguistic constraints. 
+
+![Typical sequence of eye movements in the two conditions of @tanenhaus1995integration. Extract from @tanenhaus1995integration. \label{tanenhaus1995}](img\tanenhaus1995.png){width=45%}
+
+### Ambiguities
+
+#### Snedeker and Trueswell (2004) @snedeker2004developing
+
+## Speech production
