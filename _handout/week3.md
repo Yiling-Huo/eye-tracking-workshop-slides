@@ -61,7 +61,7 @@ Allopenna et al. (1998) had participants follow spoken instructions to pick out 
 
 One of the first classic studies of spoken language in the visual world was by Roger Cooper (1974). Cooper tracked participants' eye movements as they listened to stories while looking at a display of pictures. He found that participants initiated saccades to pictures that were named in the stories, as well as pictures that were associated with words in the story (Africa - lion, zebra, snake). Moreover, fixations were often generated before the end of the word. This provides important evidence that visual attention is highly correlated with spoken sentence processing. 
 
-![Example visual display in @@cooper1974control. Extract from @cooper1974control. \label{cooper1974}](img\cooper-1976-visual.png)
+![Example visual display in @@cooper1974control. Extract from @cooper1974control. \label{cooper1974}](img\cooper-1976-visual.png){width=45%}
 
 ### Effect of the visual context: Tanenhaus et al. (1995) @tanenhaus1995integration {-}
 
@@ -72,5 +72,11 @@ To fully understand any visual world experiment, we need to be aware that the vi
 ### Ambiguities
 
 #### Snedeker and Trueswell (2004) @snedeker2004developing
+
+Last week we talked about syntactic ambiguities and the serial vs. parallel processing hypotheses of syntactic ambiguity. One issue in syntactic ambiguity is lexical bias: e.g. the verb *remember* tends to be followed by a direct object (*remembered the story*) while the verb *suspect* tends to be followed by a sentence complement (*He suspects the story is false.*). 
+
+Snedeker and Truswell (2004) demonstrated this lexical bias in syntactic parsing using the visual world paradigm. Participants listened to sentences whose verb had either a modifier bias, an instrument bias, or neutral (e.g. Choose/Tickle/Feel the frog with the feather) while looking at visual displays of four objects: a target instrument (a feather), a target animal (a frog holding a feather), a distractor instrument (a candle), and a distractor animal (an animal holding a candle). In the one-referent condition, the distractor animal is different from the target animal (a leopard holding a candle) while in the two-referent condition, the distractor animal is the same as the target (a frog holding a candle). 
+
+Results showed that both the visual context and the lexical bias affected listeners' eye movements (in an additive manner). 
 
 ## Speech production
