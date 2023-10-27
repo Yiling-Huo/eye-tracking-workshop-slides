@@ -25,7 +25,7 @@ Research on eye movements in reading has a history of more than a century. In co
 
 # The visual world paradigm
 
-In a typical visual world experiment, the participants hear an utterance while looking at an experimental display, while their eye movements are recorded for later analyses. 
+In a typical visual world experiment, the participants hear (or produce) an utterance while looking at an experimental display, while their eye movements are recorded for later analyses. 
 
 ## The visual display
 
@@ -33,19 +33,17 @@ Typically, the visual display includes the object(s) mentioned in the utterance 
 
 ![Typical visual world displays. Extract from @huettig2011using. \label{vwe-display}](img\vwe-display.jpg){width=30%}
 
-## The auditory stimuli
-
 ## The task
+
+The spoken utterances can be instructions to the participants ("Pick up the/Click on the...") or simply descriptions or comments on the visual display, which distinguish an action-based version of the visual world paradigm and its non-action-based counterpart. In the latter case, participants are usually instructed to look at the screen and to listen carefully to the sentences. 
+
+One advantage of the visual world paradigm compared to other psycholinguistic paradigms such as lexical decision or grammaticality judgments is that the listeners do not have to perform meta-linguistic judgments, which may be difficult in populations such as young children. 
 
 ## The linking hypothesis
 
-Data collected in a visual world experiment is essentially the gaze position at particular time points in each trial. How to link these position data with language processing? The assumption that provides the link between language processing and eye movements in the visual world is essentially that **the activation of a linguistic representation determines the probability that a participant will shift attention to the corresponding picture and thus make a saccadic eye movement to fixate it**. Therefore, when gaze positions are averaged across multiple trials, researchers can calculate the proportion/probability of looks to the target object, representing activation of the target word. 
+Data collected in a visual world experiment is essentially the gaze position at particular time points in each trial. How to link these position data with language processing? (Because you may realise that eye movements are not as simple as "we always look at what's mentioned".) The assumption that provides the link between language processing and eye movements in the visual world is essentially that **the activation of a linguistic representation determines the probability that a participant will shift attention to the corresponding picture and thus make a saccadic eye movement to fixate it**. Therefore, when gaze positions are averaged across multiple trials, researchers can calculate the proportion/probability of looks to the target object, representing activation of the target lexical item. 
 
 ![Proportion of looks to each object in the visual display when listening to instructions such as "Pick up the beaker". Extract from @allopenna1998tracking. \label{allopenna}](img\allopenna.png){width=45%}
-
-## Production studies
-
-In production studies, participants see sets of objects or cartoons of events or actions. No spoken input is presented, but instead the participants are asked to describe what they see. Researchers typically determine which objects are inspected, in which order they are inspected, and when they are inspected relative to the participants' speech output. This provides information about the ways speakers coordinate the generation of utterance plans with the overt articulation. 
 
 # Word recognition in the visual world
 
@@ -59,7 +57,7 @@ Allopenna et al. @allopenna1998tracking had participants follow spoken instructi
 
 One of the first classic studies of spoken language in the visual world was by Roger Cooper. Cooper @cooper1974control tracked participants' eye movements as they listened to stories while looking at a display of pictures. He found that participants initiated saccades to pictures that were named in the stories, as well as pictures that were associated with words in the story (Africa - lion, zebra, snake). Moreover, fixations were often generated before the end of the word. This provides important evidence that visual attention is highly correlated with spoken sentence processing. 
 
-![Example visual display in @@cooper1974control. Extract from @cooper1974control. \label{cooper1974}](img\cooper-1976-visual.png){width=45%}
+![Example visual display in @@cooper1974control. Extract from @cooper1974control. \label{cooper1974}](img\cooper-1976-visual.png){width=38%}
 
 ## Effects of the visual context: Tanenhaus et al. @tanenhaus1995integration
 
@@ -73,7 +71,7 @@ Last week we talked about syntactic ambiguities and the serial vs. parallel proc
 
 Snedeker and Truswell @snedeker2004developing demonstrated this lexical bias in syntactic parsing using the visual world paradigm. Participants listened to sentences whose verb had either a modifier bias, an instrument bias, or neutral (e.g. Choose/Tickle/Feel the frog with the feather) while looking at visual displays of four objects: a target instrument (a feather), a target animal (a frog holding a feather), a distractor instrument (a candle), and a distractor animal (an animal holding a candle). In the one-referent condition, the distractor animal is different from the target animal (a leopard holding a candle) while in the two-referent condition, the distractor animal is the same as the target (a frog holding a candle). 
 
-![Sample visual display in @snedeker2004developing. Extract from @snedeker2004developing. \label{snedeker2004visual}](img/snedeker2004visual.jpg){width=45%}
+![Sample visual display in @snedeker2004developing. Extract from @snedeker2004developing. \label{snedeker2004visual}](img/snedeker2004visual.jpg){width=40%}
 
 Results showed that both the visual context and the lexical bias affected listeners' eye movements (in an additive manner). One referent scenes, as compared with two referent scenes, increased measures of the instrument interpretation and decreased measures of the modifier interpretation. Likewise, as the tendency of the verb to appear with an instrument phrase increased, measures of an instrument interpretation increased and measures of a modifier interpretation decreased. On the issue of lexical bias in syntactic ambiguity, these results clearly show that lexical bias has an influence on the initial syntactic structure comprehenders build for ambiguous sentences. On top of this, these results also show that the visual context has as well an effect on the initial interpretation of these sentences. 
 
@@ -85,9 +83,9 @@ Last week we covered some reading eye-tracking studies that addressed incrementa
 
 Altmann and Kamide @altmann1999incremental presented listeners with visual displays showing, e.g., a boy, a cake, and some toys, while the listeners heard sentences such as "The boy will eat/move the cake.". Eye movements revealed that listeners were more likely to look at the target object (cake) prior to its onset when the verb was constraining (eat) than non-constraining (move). 
 
-![Sample visual display in @altmann1999incremental. Extract from @altmann1999incremental. \label{altmann1999visual}](img/altmann1999visual.jpg){width=45%}
+![Sample visual display in @altmann1999incremental. Extract from @altmann1999incremental. \label{altmann1999visual}](img/altmann1999visual.jpg){width=40%}
 
-![Proportion of looks to the target object (e.g. cake). Extract from @altmann1999incremental. \label{altmann1999result}](img/altmann1999result.gif){width=45%}
+![Proportion of looks to the target object (e.g. cake). Extract from @altmann1999incremental. \label{altmann1999result}](img/altmann1999result.gif){width=60%}
 
 This suggests that not only did listeners interpret the verb and its selectional information immediately after hearing it (incrementality), but they also used the selectional information in the verbs such as eat to actively anticipate what will be referred to next. This phenomenon is later known as prediction during language comprehension. 
 
@@ -109,12 +107,17 @@ One of the strengths of the visual world paradigm is that eye movements are cons
 
 In a series of studies that investigated the time-course of scalar implicatures, Huang and Snedeker @huang2009online, @huang2011logic asked participants to listen to utterances such as “Point to the girl that has some of the socks” while viewing a display in which one girl had two of four socks and another girl had three of three soccer balls (a phonological onset overlap competitor). The lexical semantics of “some” denote a quantity greater than one (i.e., some-and-possibly-all), but the word is usually interpreted with an ‘upper boundary’ (i.e., some-and-not-all). Linguistic theories argue that the meaning of "some" includes the meaning of "all" by default while the implication of "some" meaning "not all" is derived later as an inference. Indeed, eye movements showed that "some" is initially interpreted as compatible with "all" (looks to the girl with two socks did not exceed those to the girl with three/all soccer balls upon presentation of "some"), and participants only started to exclude referents compatible with "all" approximately 800ms later. 
 
-![Sample visual displays in @huang2009online. Participants listened to "Point to the girl that has two/some of the socks" in (A) and "...the girl that has three/all of the socks" in (B). Extract from @huang2009online. \label{huang2009visual}](img/huang2009visual.jpg){width=50%}
+![Sample visual displays in @huang2009online. Participants listened to "Point to the girl that has two/some of the socks" in (A) and "...the girl that has three/all of the socks" in (B). Extract from @huang2009online. \label{huang2009visual}](img/huang2009visual.jpg){width=35%}
 
-![Results from @huang2011logic. Extract from @huang2011logic. \label{huang2011result}](img/huang2011result.jpg){width=75%}
+![Results from @huang2011logic. Extract from @huang2011logic. \label{huang2011result}](img/huang2011result.jpg){width=55%}
 
 # Speech production in the visual world
 
+Visual world eye-tracking has been informative about speech production as well. For example, Griffin and Bock @griffin2000eyes tasked participants to describe cartoons of events and compared their eye movements to other tasks such as scene observation or patient detection. They found that although participants' initial eye movements (0-300ms) were similar among tasks, they quickly showed a distinct agent-patient pattern in the description task. The researchers concluded the existence of two distinct phases in the picture description task: an initial apprehension phase followed by a speech formulation phase when speakers look at each of the objects they name in the order of mention. Following this work, a line of research has investigated the time course of speech generation as well as the incremental interaction between visual information uptake and utterance generation. 
+
+# Summary
+
+Over the last couple of decades, the visual world paradigm has allowed us to gain much insight into spoken language processing as well as speech production. Although the visual world paradigm has its limitations (e.g. the visual contexts can affect language processing in several ways), it continues to be a popular tool for researchers interested in spoken language for its ability to assess the time course of language processing and its ability to address the interplay of language, vision, and attention. 
 
 # Read more on this... {-}
 
