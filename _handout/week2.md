@@ -223,3 +223,9 @@ Returning to the issue of nonstructural factors in syntactic parsing, some recen
 Today we have looked at word processing and sentence processing in reading and how eye-tracking evidence has contributed to some of the core issues on these topics. 
 
 On the word level, we have introduced some eye-tracking experiment paradigms that are used to study the perceptual span in reading and the mechanism of the control of eye movements during reading. On the sentence level, we have discussed how eye-tracking evidence has helped establish the incrementality of sentence processing and provided important evidence in the debate about whether sentence processing is serial or parallel. 
+
+# Read more on this... {-}
+
+Rayner, K. (1998). Eye movements in reading and information processing: 20 years of research. *Psychological bulletin*, 124(3), 372.
+
+Staub, A. (2015). Reading sentences: Syntactic parsing and semantic interpretation. *The Oxford handbook of reading*, 202-216.

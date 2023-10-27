@@ -94,3 +94,9 @@ Recently, developments in technology and data analysis method have started to al
 ![Co-registration of eye-tracking and EEG experimental setup.](img/eeg-eye-tracker-integration.jpg){width=45%}
 
 ![Co-registration of eye-tracking and fMRI experimental setup.](img/eyelink-mri-example.jpg){width=45%}
+
+# Read more on this... {-}
+
+Richardson, D. C., & Spivey, M. J. (2004). Eye tracking: Research areas and applications. *Encyclopedia of biomaterials and biomedical engineering*, 573, 582.
+
+Carter, B. T., & Luke, S. G. (2020). Best practices in eye tracking research. *International Journal of Psychophysiology*, 155, 49-62.
