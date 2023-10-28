@@ -61,7 +61,7 @@ One of the first classic studies of spoken language in the visual world was by R
 
 ## Effects of the visual context: Tanenhaus et al. @tanenhaus1995integration
 
-To fully understand any visual world experiment, we need to be aware that the visual display itself may have an effect on how the listeners interpret the sentence. Tanenhause et al. @tanenhaus1995integration is one of the most classic studies that demonstrate this. Tanenhaus and colleagues presented participants with sentences such as “Put the apple on the towel in the box”, where the first prepositional phrase (“on the towel” in the example) is temporarily ambiguous between denoting the destination of the apple or its current location. In the one-referent condition of the experiment participants saw just one apple on a towel, an empty towel, a box, and a pencil. In the two-referent condition there were two apples: one on a towel and one on a napkin. In this condition, a modifier was needed to inform the listener which of the two apples should be moved. They found that there were significantly more early looks to the empty towel in the one-referent than in the two-referent condition. This is strong evidence that listeners can use visual information immediately to disambiguate sentence structures. Not only does this study tell us to be a bit careful about the visual display when designing a visual world experiment, it also shows that language processing is subject to a broad range of linguistic as well as non-linguistic constraints. 
+To fully understand any visual world experiment, we need to be aware that the visual display itself may have an effect on how the listeners interpret the sentence. Tanenhause et al. @tanenhaus1995integration is one of the most classic studies that demonstrate this. Tanenhaus and colleagues presented participants with sentences such as “Put the apple on the towel in the box”, where the first prepositional phrase (“on the towel” in the example) is temporarily ambiguous between denoting the destination of the apple or its current location. In the one-referent condition of the experiment participants saw just one apple on a towel, an empty towel, a box, and a pencil. In the two-referent condition there were two apples: one on a towel and one on a napkin. In this condition, a modifier was needed to inform the listener which of the two apples should be moved. They found that there were significantly more early looks to the empty towel in the one-referent than in the two-referent condition. This is strong evidence that listeners can use visual information immediately to disambiguate sentence structures. This line of research shows that language processing is subject to a broad range of linguistic as well as non-linguistic constraints. 
 
 ![Typical sequence of eye movements in the two conditions of @tanenhaus1995integration. Extract from @tanenhaus1995integration. \label{tanenhaus1995}](img\tanenhaus1995.png){width=45%}
 
@@ -75,7 +75,7 @@ Snedeker and Truswell @snedeker2004developing demonstrated this lexical bias in 
 
 Results showed that both the visual context and the lexical bias affected listeners' eye movements (in an additive manner). One referent scenes, as compared with two referent scenes, increased measures of the instrument interpretation and decreased measures of the modifier interpretation. Likewise, as the tendency of the verb to appear with an instrument phrase increased, measures of an instrument interpretation increased and measures of a modifier interpretation decreased. On the issue of lexical bias in syntactic ambiguity, these results clearly show that lexical bias has an influence on the initial syntactic structure comprehenders build for ambiguous sentences. On top of this, these results also show that the visual context has as well an effect on the initial interpretation of these sentences. 
 
-## Incrementality of sentence processing
+## Incrementality in sentence processing
 
 Last week we covered some reading eye-tracking studies that addressed incrementality in sentence processing. A line of studies also addresses this using the visual world paradigm.
 
@@ -109,11 +109,13 @@ In a series of studies that investigated the time-course of scalar implicatures,
 
 ![Sample visual displays in @huang2009online. Participants listened to "Point to the girl that has two/some of the socks" in (A) and "...the girl that has three/all of the socks" in (B). Extract from @huang2009online. \label{huang2009visual}](img/huang2009visual.jpg){width=35%}
 
-![Results from @huang2011logic. Extract from @huang2011logic. \label{huang2011result}](img/huang2011result.jpg){width=55%}
+![Results from @huang2011logic. Extract from @huang2011logic. \label{huang2011result}](img/huang2011result.jpg){width=65%}
 
 # Speech production in the visual world
 
 Visual world eye-tracking has been informative about speech production as well. For example, Griffin and Bock @griffin2000eyes tasked participants to describe cartoons of events and compared their eye movements to other tasks such as scene observation or patient detection. They found that although participants' initial eye movements (0-300ms) were similar among tasks, they quickly showed a distinct agent-patient pattern in the description task. The researchers concluded the existence of two distinct phases in the picture description task: an initial apprehension phase followed by a speech formulation phase when speakers look at each of the objects they name in the order of mention. Following this work, a line of research has investigated the time course of speech generation as well as the incremental interaction between visual information uptake and utterance generation. 
+
+![Results from @griffin2000eyes. Extract from @@griffin2000eyes. \label{griffin2000result}](img/griffin2000result.png){width=65%}
 
 # Summary
 
