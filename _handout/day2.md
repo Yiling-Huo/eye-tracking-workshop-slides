@@ -1,6 +1,6 @@
 ---
-title: "Week 2: Reading"
-# subtitle: "Reading"
+title: "Introduction to the Eye-tracking Method and its Application in Language Research"
+subtitle: "Day 2: Reading"
 author: "Yiling Huo"
 date: \today
 bibliography: eye-tracking-method.bib
@@ -9,17 +9,22 @@ reference-section-title: "References"
 
 header-includes: 
   - \usepackage{gb4e}
+  - \usepackage{fancyhdr}
 
 nocite: |
   @li2022universal, @rayner1998eye, @satub2015reading, @schotter2015work
 
 # Pandoc md YAML
-geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+geometry: "left=2cm,right=2cm,top=2.5cm,bottom=2cm"
 
 # cd github\eye-tracking-workshop-slides\_handout
 
-# pandoc week2.md -o week2.pdf -d default.yml
+# pandoc day2.md -o day2.pdf -d default.yml
 ---
+
+\pagestyle{fancy}
+\lhead{}
+\fancyhead[R]{UCL Linguistics Autumn School 2023}
 
 # Eye movements in reading: fundamental characteristics
 
@@ -50,7 +55,7 @@ Eye movements are not exactly the same across different writing systems. For exa
 > - Second-pass duration: the sum of all refixations on a region of text after the eye has already moved past that region in the text. 
 > - Total duration: the sum of initial processing of a target region (i.e., first-pass duration) and any subsequent rereading of that region (i.e., second-pass duration). 
 
-# Word processing during reading
+# Eye movements in reading: more details
 
 ## Experimental paradigms
 
@@ -104,7 +109,7 @@ Results from disappearing text experiments (where the fixated word disappears or
 
 # Sentence processing during reading
 
-So far we have talked about how individual words are recognized and processed during reading and how this influences eye movements. However, to understand a text, recognizing the words is only the first step. The reader must also analyze the grammatical structure of each sentence and identify each word's place in this structure (*syntactic parsing*), as well as combine the meaning of individual words and phrases to construct a representation of the sentence's overall meaning (*semantic interpretation*). 
+To understand a text, recognizing the words is only the first step. The reader must also analyze the grammatical structure of each sentence and identify each word's place in this structure (*syntactic parsing*), as well as combine the meaning of individual words and phrases to construct a representation of the sentence's overall meaning (*semantic interpretation*). 
 
 In general, syntactic parsing and semantic interpretation are quick and effortless during reading, in fact as readers, we are usually unaware of these processes. However, by introducing difficulties in these processes and causing sentence processing to break down, we can get insight into how the sentence processing system works. For example, consider (\ref{reduced-relative}): 
 

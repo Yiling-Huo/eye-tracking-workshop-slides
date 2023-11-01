@@ -1,6 +1,6 @@
 ---
-title: "Week 1: Introduction to the Human Visual System and the Eye-tracking Method"
-# subtitle: "Introduction to the Human Visual System and the Eye-tracking Method"
+title: "Introduction to the Eye-tracking Method and its Application in Language Research"
+subtitle: "Day 1: Introduction to the Human Visual System and the Eye-tracking Method"
 author: "Yiling Huo"
 date: \today
 bibliography: eye-tracking-method.bib
@@ -11,16 +11,23 @@ nocite: |
   @carrasco2011visual, @carter2020best, @duchowski2017eye, @rayner1998eye, @richardson2004eye, @tanenhaus2007eye
 
 # Pandoc md YAML
-geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+geometry: "left=2cm,right=2cm,top=2.5cm,bottom=2cm"
+
+header-includes:
+  - \usepackage{fancyhdr}
 
 # cd github\eye-tracking-workshop-slides\_handout
 
-# pandoc week1.md -o week1.pdf -d default.yml
+# pandoc day1.md -o day1.pdf -d default.yml
 ---
+
+\pagestyle{fancy}
+\lhead{}
+\fancyhead[R]{UCL Linguistics Autumn School 2023}
 
 Eye-tracking is a very popular tool in psychology, and is becoming more and more popular in psycholinguistics, as well. Although eye-tracking does not provide direct measurements of neural activity, it allows researchers to gain insight into human cognition and attention. 
 
-In these few weeks, I will give you an introduction to the eye-tracking method and its application in research on reading as well as spoken language processing. In week 4 I will invite Kayla to talk about pupillometry, eye-tracking's cousin method, and its application to language research. In week 5, we will have the opportunity to go to the lab and I will show you a demo eye-tracking experiment. 
+In these few days, I will give you an introduction to the eye-tracking method and its application in research on reading as well as spoken language processing. On day 4 I will invite Kayla to talk about pupillometry, eye-tracking's cousin method, and its application to language research. For day 5, I will bring a demo experiment to the class before answering your questions and/or tell you a bit more about what you are interested. 
 
 # How eye-tracking works
 
@@ -42,9 +49,9 @@ The device used to track eye movements is called an eye tracker. In general, the
 
 Today, the most popular (laboratory) eye movement measurement technique is the video-based corneal reflection eye tracker^[The eye trackers in the Chandler House labs are all of this type.]. Video-based corneal reflection eye trackers use corneal reflection of a light source (usually infra-red) and the pupil center to disambiguate head movement from eye rotation, in order to measure the point of regard. 
 
-![The desktop mount set-up of an Eyelink 1000 Plus eye tracker. \label{eyelink-setup}](img/eyelink-setup.jpg){width=45%}
+![The desktop mount set-up of an Eyelink 1000 Plus eye tracker. Extract from sr-research.com. \label{eyelink-setup}](img/eyelink-setup.jpg){width=45%}
 
-![A screen showing the image captured by an Eyelink 1000 Plus eye tracker camera. \label{eyelink-camera}](img/eyelink-camera.png){width=45%}
+![A screen showing the image captured by an Eyelink 1000 Plus eye tracker camera. Extract from sr-research.com. \label{eyelink-camera}](img/eyelink-camera.png){width=45%}
 
 Eye tracking is the measurement of eye movements, but modern eye trackers can often provide more data than that. A good example is pupil size. Although not part of eye movements, pupil size is closely associated with various psychological constructs such as arousal, emotion, cognitive load, and memory. The measurement of pupil size is called pupillometry, and is being used in psychology-related research fields including language. 
 
@@ -62,7 +69,7 @@ How are these coupled mechanisms of attention and eye movement deployed when a s
 
 ## Reading
 
-![Sample eye movement pattern while the participant is reading a short paragraph. ](img/sample-data-reading2.png){width=45%}
+![Sample eye movement pattern while the participant is reading a short paragraph. \label{reading}](img/sample-data-reading2.png){width=45%}
 
 Reading is perhaps the first instance anyone can think of where vision is required for language, and indeed eye-tracking is widely used in research on reading. 
 
@@ -74,7 +81,7 @@ There is a large individual difference in terms of eye movement patterns during 
 
 ## Spoken language processing in a visual scene
 
-![Sample trial in a visual world eye-tracking experiment.](img/sample-data-vwe.png){width=45%}
+![Sample trial in a visual world eye-tracking experiment. \label{vwe}](img/sample-data-vwe.png){width=45%}
 
 The use of eye tracking as a tool to study spoken language comprehension was pioneered by Roger Cooper in 1974, who found that listeners initiated saccades to pictures that were named in spoken stories. In 1995, Tanenhaus and colleagues initiated what's called the visual world paradigm, where participants are presented with objects in a visual display while listening to instructions to interact with these objects or simply listening to sentences for comprehension. 
 
@@ -86,14 +93,14 @@ The visual world paradigm has been used to study lexical activation during spoke
 
 Experimental research benefits from the complementarity of its research methods: each method has its strengths and limitations, so the results obtained from multiple techniques are more compelling than results derived from only a single approach. 
 
-Traditionally, eye-tracking results have been discussed together with results from other techniques such as electroencephalography (EEG)^[Electroencephalography (EEG) measures the brain's electrical activity (brain waves) from the scalp. EEG has high temporal resolution and can measure neural activity on the millisecond scale. In cognitive neuroscience and related fields, researchers are often interested in the brain's response to a stimulus. The brain's response relative to the onset of an event (e.g. presentation of a stimulus) is called Event-related potentials (ERPs).] and functional magnetic resonance imaging (fMRI)^[Magnetic resonance imaging uses nuclear magnetic resonance to produce detailed images of body tissues. (Basically it measures the distribution of hydrogen in the body and uses it to calculate images.) Functional MRI (fMRI) measures the brain's neural activity by measuring changes in the brain's blood flow associated with neural activities. fMRI's high spatial resolution enables researchers to ask very detailed "where" questions (e.g. is there an area in the brain that's specialized in language?). ] at a conceptual/theoretical level. For example, there are both eye-tracking evidence and EEG evidence showing that a comprehender uses contextual information to anticipate upcoming words in constraining contexts such as "They wanted to make the hotel look more
+Traditionally, eye-tracking results have been discussed together with results from other techniques such as electroencephalography (EEG)^[Electroencephalography (EEG) measures the brain's electrical activity (brain waves) from the scalp. EEG has high temporal resolution and can measure neural activity on the millisecond scale. In cognitive neuroscience and related fields, researchers are often interested in the brain's response to a stimulus. The brain's response relative to the onset of an event (e.g. presentation of a stimulus) is called Event-related potentials (ERPs).] and functional magnetic resonance imaging (fMRI)^[Magnetic resonance imaging uses nuclear magnetic resonance to produce detailed images of body tissues. (Basically it measures the distribution of hydrogen in the body and uses it to calculate images.) Functional MRI (fMRI) uses a version of these MR signals and measures the brain's neural activity by measuring changes in the brain's blood flow associated with neural activities. fMRI's high spatial resolution enables researchers to ask very detailed "where" questions on the millimeter scale (e.g. is there an area in the brain that's specialized in syntax/semantics?). ] at a conceptual/theoretical level. For example, there are both eye-tracking evidence and EEG evidence showing that a comprehender uses contextual information to anticipate upcoming words in constraining contexts such as "They wanted to make the hotel look more
 like a tropical resort. So along the driveway, they planted rows of *palms*". Eye-tracking results show that comprehenders often make anticipatory saccades towards the target object in constraining contexts, and EEG methods show that neural response to an expected word is reduced compared to unexpected words (because the expected word was already pre-activated by the context). However, as different techniques traditionally use distinct experimental designs, it's very difficult to directly compare results from these different methods. 
 
-Recently, developments in technology and data analysis method have started to allow researchers to co-register eye-tracking and EEG/fMRI data. Eye-tracking data and EEG or fMRI data are complementary; eye movements provide information on what is being looked at, and EEG or fMRI data provide information on the brain's response to that visual information. Co-registration of eye-tracking and EEG was pioneered in the first decade of this century, and studies of eye-tracking EEG co-registration during natural reading started to publish in the 2010s. Using eye movement patterns as an anchor, researchers have successfully replicated in natural reading a few EEG effects (e.g. effect of expected vs. unexpected words) in fixation-related potentials (FRPs) that were previously only possible to obtain with carefully-controlled laboratory stimuli presentation methods [@dimigen2011coregistration]. Co-registration of eye-tracking and fMRI has also been possible since the 2010s, with applications to language research emerging in recent years on topics such as syntactic parsing and lexical activation during natural reading. For example, @carter2019linguistic reported that a word's different types of predictability (syntactic, semantic, and lexical) are associated with different regions in the brain's language system. 
+Recently, developments in technology and data analysis method have started to allow researchers to co-register eye-tracking and EEG/fMRI data. Eye-tracking data and EEG or fMRI data are complementary; eye movements provide information on what is being looked at, and EEG or fMRI data provide information on the brain's response to that visual information. Co-registration of eye-tracking and EEG was pioneered in the first decade of this century, and studies of eye-tracking EEG co-registration during natural reading started to publish in the 2010s. Using eye movement patterns as an anchor, researchers have successfully replicated in natural reading a few EEG effects (e.g. effect of expected vs. unexpected words) in fixation-related potentials (FRPs) that were previously only possible to obtain with carefully-controlled laboratory stimuli presentation methods [@dimigen2011coregistration]. Co-registration of eye-tracking and fMRI has also been possible since the 2010s, with applications to language research emerging in recent years on topics such as syntactic parsing and lexical activation during natural reading. For example, Carter et al. @carter2019linguistic reported that a word's different types of predictability (syntactic, semantic, and lexical) are associated with different regions in the brain's language system. 
 
-![Co-registration of eye-tracking and EEG experimental setup.](img/eeg-eye-tracker-integration.jpg){width=45%}
+![Co-registration of eye-tracking and EEG experimental setup. Extract from sr-research.com. \label{eye-eeg}](img/eeg-eye-tracker-integration.jpg){width=45%}
 
-![Co-registration of eye-tracking and fMRI experimental setup.](img/eyelink-mri-example.jpg){width=45%}
+![Co-registration of eye-tracking and fMRI experimental setup. Extract from sr-research.com. \label{eye-fmri}](img/eyelink-mri-example.jpg){width=45%}
 
 # Read more on this... {-}
 

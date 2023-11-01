@@ -1,6 +1,6 @@
 ---
-title: "Week 3: Spoken Language Processing in a Visual Context"
-# subtitle: ""
+title: "Introduction to the Eye-tracking Method and its Application in Language Research"
+subtitle: "Day 3: Spoken Language Processing in a Visual Context"
 author: "Yiling Huo"
 date: \today
 bibliography: [eye-tracking-method.bib, P:\\Literature\\citations-merged.bib, P:\\Literature\\references.bib]
@@ -8,18 +8,22 @@ csl: elsevier-vancouver.csl
 reference-section-title: "References"
 
 header-includes: 
-  - \usepackage{gb4e}
+  - \usepackage{fancyhdr}
 
 nocite: |
   @tanenhaus2007eye; @huettig2011using
 
 # Pandoc md YAML
-geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+geometry: "left=2cm,right=2cm,top=2.5cm,bottom=2cm"
 
 # cd github\eye-tracking-workshop-slides\_handout
 
-# pandoc week3.md -o week3.pdf -d default.yml
+# pandoc day3.md -o day3.pdf -d default.yml
 ---
+
+\pagestyle{fancy}
+\lhead{}
+\fancyhead[R]{UCL Linguistics Autumn School 2023}
 
 Research on eye movements in reading has a history of more than a century. In contrast, eye movements have only started to become a popular measure in studies of spoken language processing within the last couple of decades. In these studies, participants' eye movements to a visual display are recorded as they follow instructions, listen to sentences, or generate utterances about the "visual world". The visual world paradigm allows researchers to study real-time language comprehension and production in natural tasks. Today we will first talk about components of the visual world paradigm, before discussing (only a fraction of) the most classic or interesting research questions that it has been used to address. 
 
@@ -31,7 +35,7 @@ In a typical visual world experiment, the participants hear (or produce) an utte
 
 Typically, the visual display includes the object(s) mentioned in the utterance as well as a few distractors. The visual display can take the form of a semi-realistic scene, an array of objects, or even printed words. The visual display is typically presented 1-2 seconds before the onset of the utterance (preview time) and stays in view until the offset of the auditory stimuli. In some versions of the visual world paradigm, the visual display can be presented first, and a spoken sentence follows while a blank screen is shown. Such a setup is useful in the studies of short-term memory in language comprehension. 
 
-![Typical visual world displays. Extract from @huettig2011using. \label{vwe-display}](img\vwe-display.jpg){width=30%}
+![Typical visual world displays. Extract from @huettig2011using. \label{vwe-display}](img\vwe-display.jpg){width=25%}
 
 ## The task
 
@@ -67,7 +71,7 @@ To fully understand any visual world experiment, we need to be aware that the vi
 
 ## Syntactic ambiguities: Snedeker and Trueswell @snedeker2004developing
 
-Last week we talked about syntactic ambiguities and the serial vs. parallel processing hypotheses of syntactic ambiguity. One issue in syntactic ambiguity is lexical bias: e.g. the verb *remember* tends to be followed by a direct object (*remembered the story*) while the verb *suspect* tends to be followed by a sentence complement (*He suspects the story is false.*). 
+Yesterday we talked about syntactic ambiguities and the serial vs. parallel processing hypotheses of syntactic ambiguity. One issue in syntactic ambiguity is lexical bias: e.g. the verb *remember* tends to be followed by a direct object (*remembered the story*) while the verb *suspect* tends to be followed by a sentence complement (*He suspects the story is false.*). 
 
 Snedeker and Truswell @snedeker2004developing demonstrated this lexical bias in syntactic parsing using the visual world paradigm. Participants listened to sentences whose verb had either a modifier bias, an instrument bias, or neutral (e.g. Choose/Tickle/Feel the frog with the feather) while looking at visual displays of four objects: a target instrument (a feather), a target animal (a frog holding a feather), a distractor instrument (a candle), and a distractor animal (an animal holding a candle). In the one-referent condition, the distractor animal is different from the target animal (a leopard holding a candle) while in the two-referent condition, the distractor animal is the same as the target (a frog holding a candle). 
 
@@ -77,7 +81,7 @@ Results showed that both the visual context and the lexical bias affected listen
 
 ## Incrementality in sentence processing
 
-Last week we covered some reading eye-tracking studies that addressed incrementality in sentence processing. A line of studies also addresses this using the visual world paradigm.
+Yesterday we covered some reading eye-tracking studies that addressed incrementality in sentence processing. A line of studies also addresses this using the visual world paradigm.
 
 ### Altmann & Kamide @altmann1999incremental {-}
 
