@@ -19,7 +19,7 @@ geometry: "left=2cm,right=2cm,top=2.5cm,bottom=2cm"
 
 # cd github\eye-tracking-workshop-slides\_handout
 
-# pandoc day2.md -o day2.pdf -d default.yml
+# pandoc day2.md -o day2.pdf -d default.yml -V papersize:a4
 ---
 
 \pagestyle{fancy}
