@@ -28,17 +28,17 @@ geometry: "left=2cm,right=2cm,top=2.5cm,bottom=2cm"
 
 # Eye movements in reading: fundamental characteristics
 
-Someone with no knowledge of eye movements may have the impression that during reading, the eye sweeps across the text continuously; however, this impression is an illusion. Like in unconstrained scene-viewing, eye movements in reading consist of a series of fixations and saccades. 
+Someone with no knowledge of eye movements may have the impression that during reading, the eye sweeps across the text continuously; this impression is of course an illusion. Like in unconstrained scene-viewing, eye movements in reading consist of a series of fixations and saccades. 
 
-> - On average, a fixation in reading last 200-250ms.
-> - With each saccade during reading the eye gaze usually moves about 7 to 9 letters for readers of English. 
+> - On average, a fixation during reading lasts 200-250ms.
+> - With each saccade during reading, the eye gaze usually moves about 7 to 9 letters for readers of English. 
 > - During reading, about 10-15% of saccades go backwards (*regressive saccades*).
-> - The *return sweeps* refers to the eye movement from the end of one line to the beginning of the next. They usually start from 5-7 letters before the end of a line to 3-7 letters after the beginning of the next line. 
+> - *Return sweeps* refers to the eye movement from the end of one line to the beginning of the next. They usually start from 5-7 letters before the end of a line to 3-7 letters after the beginning of the next line. 
 > - There are considerable individual differences in terms of average fixation duration and saccade length in reading. 
 
 You may have noticed that saccade length is measured in letter spaces rather than viewing angles in reading. This is because saccade length during reading is relatively unaffected by the retinal size of the text: the eye moves about 7-9 letters with each saccade regardless of whether the text is 36cm to the eye or 72cm (or size 36 or size 72). 
 
-Eye movements are not exactly the same across different writing systems. For example, readers of Chinese (where a character corresponds to a morpheme) typically move their eyes about 2 characters with a saccade; and readers of Japanese (where a character corresponds to a morpheme (*kanji*) or a syllable (*kana*)) have an average saccade length of 3.5 characters. In Hebrew, where vowels are often not represented orthographically, the average saccade length is also shorter than in English (5.5 characters/letters vs. 7-9 letters). The difference in saccade length across languages can be attributed to the difference in information density: while a word is on average 5 letters in English, it is about 2 characters in Chinese and Japanese. When the number of words is considered rather than the number of letters/characters, the average saccade lengths in English, Chinese, Japanese, and Hebrew are roughly comparable. 
+Eye movements are not exactly the same across different writing systems. For example, readers of Chinese (where a character corresponds to a morpheme) typically move their eyes about 2 characters with a saccade; and readers of Japanese (where a character corresponds to a morpheme (*kanji*) or a syllable (*kana*)) have an average saccade length of 3.5 characters. In Hebrew, where vowels are often not represented orthographically, the average saccade length is also shorter than in English (5.5 characters/letters vs. 7-9 letters). The difference in saccade length across languages can be attributed to the difference in information density: while a word is on average 5 letters in English, it is about 2 characters in Chinese and Japanese. When the number of words is considered rather than the number of letters/characters, the average saccade lengths in English, Chinese, Japanese, and Hebrew are roughly comparable [@schotter2015work]. 
 
 > Common measures you may see in a reading eye-tracking experiment:
 >
@@ -46,7 +46,7 @@ Eye movements are not exactly the same across different writing systems. For exa
 >
 > - First-fixation duration: the duration of the first fixation on a word.
 > - Single-fixation duration: those cases where only a single fixation is made on a word. 
-> - Gaze duation: the sum of all fixations on a word prior to moving to another word. 
+> - Gaze duration: the sum of all fixations on a word prior to moving to another word. 
 > 
 > On the region of interest (ROI) level:
 > 
@@ -57,11 +57,13 @@ Eye movements are not exactly the same across different writing systems. For exa
 
 # Eye movements in reading: more details
 
-## Experimental paradigms
+## Foveal vs. parafoveal vision in reading
+
+### Experimental paradigms
 
 How do we study how readers extract information from the text during reading? A type of experimental paradigm that has been very successful for this purpose is called gaze-contingency paradigms, in which the visual display changes depending on where the reader is looking. 
 
-### Moving window/moving mask paradigms {-}
+#### Moving window/moving mask paradigms {-}
 
 The fovea is where visual acuity is the highest and vision the sharpest, but it is not the only region on the retina where information can be obtained. During scene perception, it has been shown that information of all levels can be processed parafoveally (i.e. information can be obtained from the parafovea, the region that circumscribes the fovea), from low-level features such as colour and orientation to high-level information such as semantic meaning (the gist of a scene). 
 
@@ -71,27 +73,27 @@ How do foveal and parafoveal visions contribute to reading? A clever way to inve
 
 ![The moving mask paradigm. Extract from @rayner2023sir. \label{moving-mask}](img/moving-mask.jpg){width=45%}
 
-### Boundary paradigm {-}
+#### Boundary paradigm {-}
 
 In the boundary paradigm, a target word is replaced by a preview word while the reader fixates on the prior parts of the text. When the reader's eye passes an invisible boundary, the preview changes to the target. If the target is processed faster (i.e. shorter fixation times) when the preview is related compared with when it was unrelated, there has been a preview benefit. 
 
 ![The boundary paradigm. Extract from @blythe2014developmental. \label{boundary-paradigm}](img/boundary-paradigm.jpeg){width=45%}
 
-## Perceptual span in reading
+### Perceptual span in reading
 
 Perceptual span refers to the area from which readers can obtain useful information. An abundance of studies have investigated the size of perceptual span during reading, mainly using the moving window/moving mask paradigm. The perceptual span is asymmetrical around the centre of fixation. In English, the perceptual span during reading is about 3 to 4 letters to the left of the current fixation and 14 to 15 letters to the right, i.e. from the beginning of the current word to 2 words to the right. In languages written right-to-left, the perceptual span is reversed. 
 
-### Foveal vs. parafoveal vision within the perceptual span {-}
+#### Foveal vs. parafoveal vision within the perceptual span {-}
 
 Results from moving mask experiments have shown that foveal processing is vital in reading while parafoveal processing is beneficial but also has limitations. When the moving mask is small enough to allow some letters into the fovea, participants read at a reduced rate but can still obtain information. As the size of the mask increases, reading efficiency drops rapidly. When the mask covers the entire fovea but only some of the parafovea, readers make large numbers of errors when reporting the sentence. 
 
-While parafoveal vision has many limitations, the boundary paradigm has shown that quite a few types of information can be processed parafoveally during reading. Preview benefits can be obtained from previews that have overlap with the target word in terms of orthography, phonology, as well as morphology (especially in languages such as Chinese where morphological structure plays a more important role in word recognition). 
+While parafoveal vision has many limitations, the boundary paradigm has shown that quite a few types of information can be processed parafoveally during reading. Preview benefits can be obtained from previews that overlap with the target word in terms of orthography [@balota1985interaction], phonology [@pollatsek1992phonological], as well as morphology (especially in languages such as Chinese where morphological structure plays a more important role in word recognition)[@yen2008eye]. 
 
 ## The control of eye movement in reading
 
 ### Where to move the eyes {-}
 
-When we're finished with processing a word during reading, we make a saccade to move our gaze to the next position. This is quite an automatic process that is controlled by a few non-linguistic as well as linguistic factors. 
+When we finish processing a word during reading, we make a saccade to move our gaze to the next position. This is quite an automatic process that is controlled by a few non-linguistic as well as linguistic factors. 
 
 In languages with interword spaces such as English, word length (of the fixated word and the next word) and interword space are the most important factors affecting a saccade's landing site. Some evidence also shows that readers benefit from interword spaces in Thai which usually does not have spaces. 
 
@@ -173,7 +175,7 @@ Since Jay always jogs a mile seems like a short distance to him. \\
 \end{exe}
 ```
 
-In terms of semantic interpreration, it has been found that the plausibility of a word as a sentence continuation affects eye movements. Implausibility cannot affect eye movements until the reader has actually constructed, or at least entertained, an implausible semantic interpretation; thus the timing of implausibility effects sheds light on how long it takes to integrate a word into a representation of the sentence's meaning. For example, Rayner  et al. @rayner2004effect compared reading times on a critical word (e.g. *carrots*) and subsequent material when the word is plausible vs. implausible:
+In terms of semantic interpretation, it has been found that the plausibility of a word as a sentence continuation affects eye movements. Implausibility cannot affect eye movements until the reader has actually constructed, or at least entertained, an implausible semantic interpretation; thus the timing of implausibility effects sheds light on how long it takes to integrate a word into a representation of the sentence's meaning. For example, Rayner  et al. @rayner2004effect compared reading times on a critical word (e.g. *carrots*) and subsequent material when the word is plausible vs. implausible:
 
 ```{=latex}
 \begin{exe}
@@ -190,7 +192,7 @@ John used a pump to inflate the large carrots for dinner. \\
 \end{exe}
 ```
 
-Results showed increased gaze duration (the sum of fixation durations on a word from the time the eyes first encounter the word to the time the eyes first leave the word, to the left or right) when the target word was implausible vs. plausible. The early effect of implausibility (as soon as the reader's first fixation(s), which is around 300ms) suggest that within this time span, the reader has not only extracted a great deal of lexical information from the fixated word, but has also at least begun the process of integrating that word into a representation of the sentence's structure and meaning. 
+Results showed increased gaze duration (the sum of fixation durations on a word from the time the eyes first encounter the word to the time the eyes first leave the word, to the left or right) when the target word was implausible vs. plausible. The early effect of implausibility (as soon as the reader's first fixation(s), which is around 300ms) suggests that within this time span, the reader has not only extracted a great deal of lexical information from the fixated word, but has also at least begun the process of integrating that word into a representation of the sentence's structure and meaning. 
 
 Overall, sentence processing is shown to be highly incremental. 
 
@@ -219,15 +221,13 @@ The son of the driver with the moustache was pretty cool. \\
 \end{exe}
 ```
 
-As multiple structural analyses compete in parallel models, processing difficulty should be the highest in fully ambiguous sentences where there is roughly equivalent support for different readings (\ref{traxler2}), and difficulty should be the lowest in unambiguous sentences with only one possible reading. This should in turn predict longer reading time in ambiguous vs. unambiguous sentences, which is contrary to the empirical observations. However, proponents of parallel models have also proposed versions of parallel models that are in fact able to account for the ambiguity advantage [@green2006absence]: at lease in some parallel models, processing difficulty is not necessarily introduced by the ambiguous input (*moustache* in (\ref{traxler2})), but rather by the competition between a prior interpretation bias and the new interpretation bias introduced by new input (*fell* in (\ref{reduced-relative}) and *seems* in (\ref{frazier-rayner2})). Since (\ref{traxler2}) does not contain such bias-flipping input, processing difficulty does not necessarily need to occur. 
+As multiple structural analyses compete in parallel models, processing difficulty should be the highest in fully ambiguous sentences where there is roughly equivalent support for different readings (\ref{traxler2}), and difficulty should be the lowest in unambiguous sentences with only one possible reading. This should in turn predict longer reading time in ambiguous vs. unambiguous sentences, which is contrary to the empirical observations. However, proponents of parallel models have also proposed versions of parallel models that are in fact able to account for the ambiguity advantage [@green2006absence]: at least in some parallel models, processing difficulty is not necessarily introduced by the ambiguous input (*moustache* in (\ref{traxler2})), but rather by the competition between a prior interpretation bias and the new interpretation bias introduced by new input (*fell* in (\ref{reduced-relative}) and *seems* in (\ref{frazier-rayner2})). Since (\ref{traxler2}) does not contain such bias-flipping input, processing difficulty does not necessarily need to occur. 
 
 Returning to the issue of nonstructural factors in syntactic parsing, some recent elaborations of serial models [@van2014evidence] hold that parsing decisions are probabilistic rather than deterministic, thus allowing for the participation of nonstructural factors in forming the single fully constructed interpretation. 
 
 # Summary
 
-Today we have looked at word processing and sentence processing in reading and how eye-tracking evidence has contributed to some of the core issues on these topics. 
-
-On the word level, we have introduced some eye-tracking experiment paradigms that are used to study the perceptual span in reading and the mechanism of the control of eye movements during reading. On the sentence level, we have discussed how eye-tracking evidence has helped establish the incrementality of sentence processing and provided important evidence in the debate about whether sentence processing is serial or parallel. 
+Today we have looked at properties of eye movements in reading and how eye movements can help us understand sentence processing in reading. We have introduced some eye-tracking experiment paradigms that are used to study the perceptual span in reading and the mechanism of the control of eye movements during reading. On the sentence level, we have discussed how eye-tracking evidence has helped establish the incrementality of sentence processing and provided important evidence in the debate about whether sentence processing is serial or parallel. 
 
 # Read more on this... {-}
 
