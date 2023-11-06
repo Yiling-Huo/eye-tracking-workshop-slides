@@ -77,7 +77,7 @@ During reading, a saccade usually spans over seven to nine letter spaces. On an 
 
 Fixation pattern during reading is also affected by factors such as legibility and syntactic and conceptual difficulty. Although readers typically move their eyes forward during reading, a proportion of saccades move backwards as well. These regressive saccades are associated with processing difficulties during reading. 
 
-There is a large individual difference in terms of eye movement patterns during reading. This individual difference means that reading eye-tracking has many practical applications in education psychology, including distinguishing successful and unsuccessful students and the diagnosis of reading disorders such as dyslexia. 
+There is a large individual difference in terms of eye movement patterns during reading in terms of fixation duration and saccade length. Reading eye-tracking also has many practical applications in education psychology, including distinguishing successful and unsuccessful students and the diagnosis of reading disorders such as dyslexia. 
 
 ## Spoken language processing in a visual scene
 
@@ -87,7 +87,7 @@ The use of eye tracking as a tool to study spoken language comprehension was pio
 
 In the visual world paradigm, data analysis usually involves analysing the proportion of fixations over time for each object in the visual display. The assumption providing the link between word recognition and eye movements is that the activation of the name of a picture determines the probability that a subject will shift attention to that picture and thus make a saccadic eye movement to fixate it. The visual world paradigm provides a (quasi-)continuous measure of cognition that has a fine temporal resolution, and has contributed a lot to our understanding of the time course of language comprehension. 
 
-The visual world paradigm has been used to study lexical activation during spoken word recognition, and has provided evidence for listeners sensitivity to lexical stress, duration of acoustic sequences, pitch accents, lexical tones, etc. At the sentence level, the visual world paradigm is widely used to study syntactic parsing, semantic integration, discourse processing, and most importantly predictive processing during language comprehension. 
+The visual world paradigm has been used to study lexical activation during spoken word recognition, and has provided evidence for listeners' sensitivity to lexical stress, duration of acoustic sequences, pitch accents, lexical tones, etc. At the sentence level, the visual world paradigm is widely used to study syntactic parsing, semantic integration, discourse processing, and most importantly predictive processing during language comprehension. 
 
 ## Combining eye-tracking and neuroimaging
 
