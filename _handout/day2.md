@@ -40,13 +40,14 @@ You may have noticed that saccade length is measured in letter spaces rather tha
 
 Eye movements are not exactly the same across different writing systems. For example, readers of Chinese (where a character corresponds to a morpheme) typically move their eyes about 2 characters with a saccade; and readers of Japanese (where a character corresponds to a morpheme (*kanji*) or a syllable (*kana*)) have an average saccade length of 3.5 characters. In Hebrew, where vowels are often not represented orthographically, the average saccade length is also shorter than in English (5.5 characters/letters vs. 7-9 letters). The difference in saccade length across languages can be attributed to the difference in information density: while a word is on average 5 letters in English, it is about 2 characters in Chinese and Japanese. When the number of words is considered rather than the number of letters/characters, the average saccade lengths in English, Chinese, Japanese, and Hebrew are roughly comparable [@schotter2015work]. 
 
-> Common measures you may see in a reading eye-tracking experiment:
+> Common measures you may see in a reading eye-tracking experiment^[Although some try to link these different measures with distinct cognitive processing; e.g. some researchers argue that first fixation duration reflects earlier-occurring processes (i.e., word recognition), and gaze duration reflects later-occurring processes (i.e., integration), it is not possible to fully distinguish the different processes with these measures [@cook2017using]. You should pay attention to what the researchers are reporting as well as how they interpret it when reading a paper.]:
 >
 > On the word level:
 >
 > - First-fixation duration: the duration of the first fixation on a word.
 > - Single-fixation duration: those cases where only a single fixation is made on a word. 
 > - Gaze duration: the sum of all fixations on a word prior to moving to another word. 
+> - Probability of skipping: the probability that the reader does not fixate on a word/region when moving from left to right across a text (if language is written left-to-right). 
 > 
 > On the region of interest (ROI) level:
 > 
@@ -59,29 +60,33 @@ Eye movements are not exactly the same across different writing systems. For exa
 
 ## Foveal vs. parafoveal vision in reading
 
+The fovea is where visual acuity is the highest and vision the sharpest, but it is not the only region on the retina where information can be obtained. During scene perception, it has been shown that information of all levels can be processed parafoveally (i.e. information can be obtained from the parafovea, the region that circumscribes the fovea), from low-level features such as colour and orientation to high-level information such as semantic meaning (the gist of a scene). 
+
+![Photograph of the retina of the human eye, with overlay diagrams showing the positions and sizes of the macula, fovea, and optic disc. Extract from Wikipedia. \label{parafovea}](img/parafovea.png){width=30%}
+
+![The foveal, parafoveal, and peripheral regions when three characters make up 1° of visual angle. The eye icon and dotted line represent the location of fixation. Extract from @schotter2012parafoveal. \label{parafoveal-vision}](img/parafoveal-vision.png){width=50%}
+
 ### Experimental paradigms
 
-How do we study how readers extract information from the text during reading? A type of experimental paradigm that has been very successful for this purpose is called gaze-contingency paradigms, in which the visual display changes depending on where the reader is looking. 
+A type of experimental paradigm that has been very successful in investigating foveal vs. parafoveal vision in reading is called the gaze-contingency paradigm, in which the visual display changes depending on where the reader is looking. Here are some main types of this paradigm.
 
 #### Moving window/moving mask paradigms {-}
 
-The fovea is where visual acuity is the highest and vision the sharpest, but it is not the only region on the retina where information can be obtained. During scene perception, it has been shown that information of all levels can be processed parafoveally (i.e. information can be obtained from the parafovea, the region that circumscribes the fovea), from low-level features such as colour and orientation to high-level information such as semantic meaning (the gist of a scene). 
-
 How do foveal and parafoveal visions contribute to reading? A clever way to investigate this is to dissociate these two types of vision in the laboratory. In the moving window paradigm, valid information is only provided within a window area around the gaze location, with the text outside the window replaced by other letters. Conversely, in the moving mask paradigm, foveal letters are masked while only letters in the parafovea and the periphery are retained. 
 
-![The moving window paradigm. Extract from @blythe2014developmental. \label{moving-window}](img/moving-window.jpeg){width=45%}
+![The moving window paradigm. Extract from @blythe2014developmental. \label{moving-window}](img/moving-window.jpeg){width=35%}
 
-![The moving mask paradigm. Extract from @rayner2023sir. \label{moving-mask}](img/moving-mask.jpg){width=45%}
+![The moving mask paradigm. Extract from @rayner2023sir. \label{moving-mask}](img/moving-mask.jpg){width=50%}
 
 #### Boundary paradigm {-}
 
 In the boundary paradigm, a target word is replaced by a preview word while the reader fixates on the prior parts of the text. When the reader's eye passes an invisible boundary, the preview changes to the target. If the target is processed faster (i.e. shorter fixation times) when the preview is related compared with when it was unrelated, there has been a preview benefit. 
 
-![The boundary paradigm. Extract from @blythe2014developmental. \label{boundary-paradigm}](img/boundary-paradigm.jpeg){width=45%}
+![The boundary paradigm. Extract from @blythe2014developmental. \label{boundary-paradigm}](img/boundary-paradigm.jpeg){width=40%}
 
 ### Perceptual span in reading
 
-Perceptual span refers to the area from which readers can obtain useful information. An abundance of studies have investigated the size of perceptual span during reading, mainly using the moving window/moving mask paradigm. The perceptual span is asymmetrical around the centre of fixation. In English, the perceptual span during reading is about 3 to 4 letters to the left of the current fixation and 14 to 15 letters to the right, i.e. from the beginning of the current word to 2 words to the right. In languages written right-to-left, the perceptual span is reversed. 
+Perceptual span refers to the area from which readers can obtain useful information. An abundance of studies have investigated the size of perceptual span during reading, mainly using the moving window/moving mask paradigm. The perceptual span is asymmetrical around the centre of fixation. In English, the perceptual span during reading is about 3 to 4 letters to the left of the current fixation and 14 to 15 letters to the right, i.e. from the beginning of the current word to 2 words to the right. In languages written right-to-left, the perceptual span is reversed [@schotter2015work]. 
 
 #### Foveal vs. parafoveal vision within the perceptual span {-}
 
@@ -95,7 +100,7 @@ While parafoveal vision has many limitations, the boundary paradigm has shown th
 
 When we finish processing a word during reading, we make a saccade to move our gaze to the next position. This is quite an automatic process that is controlled by a few non-linguistic as well as linguistic factors. 
 
-In languages with interword spaces such as English, word length (of the fixated word and the next word) and interword space are the most important factors affecting a saccade's landing site. Some evidence also shows that readers benefit from interword spaces in Thai which usually does not have spaces. 
+In languages with interword spaces such as English, word length (of the fixated word and the next word) and interword space are the most important factors affecting a saccade's landing site. Some evidence also shows that readers of languages that usually do not have interword spaces (e.g. Thai) may benefit from added spaces between words. 
 
 There is a preferred viewing location at which the eyes typically land in a word, which is halfway between the beginning of the word and the middle of the word. Landing at a nonoptimal position in a word (as a result of experimental manipulation) results in longer reading time once the word is fixated. 
 
@@ -175,7 +180,7 @@ Since Jay always jogs a mile seems like a short distance to him. \\
 \end{exe}
 ```
 
-In terms of semantic interpretation, it has been found that the plausibility of a word as a sentence continuation affects eye movements. Implausibility cannot affect eye movements until the reader has actually constructed, or at least entertained, an implausible semantic interpretation; thus the timing of implausibility effects sheds light on how long it takes to integrate a word into a representation of the sentence's meaning. For example, Rayner  et al. @rayner2004effect compared reading times on a critical word (e.g. *carrots*) and subsequent material when the word is plausible vs. implausible:
+In terms of semantic interpretation, it has been found that the plausibility of a word as a sentence continuation affects eye movements. Implausibility cannot affect eye movements until the reader has actually constructed, or at least entertained, an implausible semantic interpretation; thus the timing of implausibility effects sheds light on how long it takes to integrate a word into a representation of the sentence's meaning. For example, Rayner et al. @rayner2004effect compared reading times on a critical word (e.g. *carrots*) and subsequent material when the word is plausible vs. implausible:
 
 ```{=latex}
 \begin{exe}
