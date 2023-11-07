@@ -178,7 +178,7 @@ Since Jay always jogs a mile seems like a short distance to him. \\
 \end{exe}
 ```
 
-In terms of semantic interpretation, it has been found that the plausibility of a word as a sentence continuation affects eye movements. Implausibility cannot affect eye movements until the reader has actually constructed, or at least entertained, an implausible semantic interpretation; thus the timing of implausibility effects sheds light on how long it takes to integrate a word into a representation of the sentence's meaning. For example, Rayner et al. @rayner2004effect compared reading times on a critical word (e.g. *carrots*) and subsequent material when the word is plausible vs. implausible:
+In terms of semantic interpretation, it has been found that the plausibility of a word as a sentence continuation affects eye movements. Implausibility cannot affect eye movements until the reader has actually constructed, or at least entertained, an implausible semantic interpretation; thus the timing of implausibility effects sheds light on how long it takes to integrate a word into a representation of the sentence's meaning. For example, Rayner et al. @rayner2004effect compared reading times on a critical word (e.g. *carrots*) and subsequent material when the word is plausible vs. anomalous:
 
 ```{=latex}
 \begin{exe}
@@ -195,7 +195,7 @@ John used a pump to inflate the large carrots for dinner. \\
 \end{exe}
 ```
 
-Results showed increased gaze duration (the sum of fixation durations on a word from the time the eyes first encounter the word to the time the eyes first leave the word, to the left or right) when the target word was implausible vs. plausible. The early effect of implausibility (as soon as the reader's first fixation(s), which is around 300ms) suggests that within this time span, the reader has not only extracted a great deal of lexical information from the fixated word, but has also at least begun the process of integrating that word into a representation of the sentence's structure and meaning. 
+Results showed increased gaze duration/first-pass duration when the target word was anomalous vs. plausible. The early effect of syntactic anomaly (as soon as the reader's first fixation(s), which is around 300ms) suggests that within this time span, the reader has not only extracted a great deal of lexical information from the fixated word, but has also at least begun the process of integrating that word into a representation of the sentence's structure and meaning. 
 
 Overall, sentence processing is shown to be highly incremental. 
 
