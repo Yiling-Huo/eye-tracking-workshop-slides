@@ -53,7 +53,7 @@ Data collected in a visual world experiment is essentially the gaze position at 
 
 ## Parallel activation during word recognition: Allopenna et al. (1998) @allopenna1998tracking {-}
 
-Allopenna et al. @allopenna1998tracking had participants follow spoken instructions to pick out objects shown on the screen (e.g. "Pick up the beaker."). Four objects were shown on the screen: the referent (beaker), a cohort (beetle), a rhyme (speaker), and an unrelated object (carriage). Allopenna et al. observed a (non-linear) rising curve for the probability of fixating on the referent, and a rising-then-falling curve for the probability of fixating on phonologically overlapping objects (the cohort and the rhyme). This provides evidence for a continuous lexical access model during spoken word recognition where all candidates that are temporarily consistent with the speech signal are activated before the speech signal provides enough information to identify the single correct lexical item. 
+Allopenna et al. @allopenna1998tracking had participants follow spoken instructions to pick out objects shown on the screen (e.g. "Pick up the beaker."). Four objects were shown on the screen: the referent (beaker), a cohort (beetle), a rhyme (speaker), and an unrelated object (carriage). Allopenna et al. observed a rising curve for the probability of fixating on the referent, and a rising-then-falling curve for the probability of fixating on phonologically overlapping objects (the cohort and the rhyme). This provides evidence for a continuous lexical access model during spoken word recognition where all candidates that are temporarily consistent with the speech signal are activated before the speech signal provides enough information to identify the single correct lexical item. 
 
 # Sentence processing in the visual world
 
@@ -61,13 +61,13 @@ Allopenna et al. @allopenna1998tracking had participants follow spoken instructi
 
 One of the first classic studies of spoken language in the visual world was by Roger Cooper. Cooper @cooper1974control tracked participants' eye movements as they listened to stories while looking at a display of pictures. He found that participants initiated saccades to pictures that were named in the stories, as well as pictures that were associated with words in the story (Africa - lion, zebra, snake). Moreover, fixations were often generated before the end of the word. This provides important evidence that visual attention is highly correlated with spoken sentence processing. 
 
-![Example visual display in Cooper (1974). Extract from @cooper1974control. \label{cooper1974}](img\cooper-1976-visual.png){width=38%}
+![Example visual display in Cooper (1974). Extract from @cooper1974control. \label{cooper1974}](img\cooper-1976-visual.png){width=30%}
 
 ## Effects of the visual context: Tanenhaus et al. (1995) @tanenhaus1995integration
 
-To fully understand any visual world experiment, we need to be aware that the visual display itself may have an effect on how the listeners interpret the sentence. Tanenhause et al. @tanenhaus1995integration is one of the most classic studies that demonstrate this. Tanenhaus and colleagues presented participants with sentences such as “Put the apple on the towel in the box”, where the first prepositional phrase (“on the towel” in the example) is temporarily ambiguous between denoting the destination of the apple or its current location. In the one-referent condition of the experiment participants saw just one apple on a towel, an empty towel, a box, and a pencil. In the two-referent condition there were two apples: one on a towel and one on a napkin. In this condition, a modifier was needed to inform the listener which of the two apples should be moved. They found that there were significantly more early looks to the empty towel in the one-referent than in the two-referent condition. This is strong evidence that listeners can use visual information immediately to disambiguate sentence structures. This line of research shows that language processing is subject to a broad range of linguistic as well as non-linguistic constraints. 
+To fully understand any visual world experiment, we need to be aware that the visual display itself may have an effect on how the listeners interpret the sentence. Tanenhause et al. @tanenhaus1995integration is one of the most classic studies that demonstrate this. Tanenhaus and colleagues presented participants with sentences such as “Put the apple on the towel in the box”, where the first prepositional phrase (“on the towel” in the example) is temporarily ambiguous between denoting the destination of the apple or its current location. In the one-referent condition of the experiment, participants saw just one apple on a towel, an empty towel, a box, and a pencil. In the two-referent condition there were two apples: one on a towel and one on a napkin. In this condition, a modifier was needed to inform the listener which of the two apples should be moved. They found that there were significantly more early looks to the empty towel in the one-referent than in the two-referent condition; which shows that listeners were more likely to initially interpret "on the towel" as the destination in the one-referent condition, but they were more likely to initially interpret it as the modifier in the two-referent condition. This is strong evidence that listeners can use visual information immediately to disambiguate sentence structures. This line of research shows that language processing is subject to a broad range of linguistic as well as non-linguistic constraints. 
 
-![Typical sequence of eye movements in the two conditions of Tanenhaus et al. (1995). Extract from @tanenhaus1995integration. \label{tanenhaus1995}](img\tanenhaus1995.png){width=45%}
+![Typical sequence of eye movements in the two conditions of Tanenhaus et al. (1995). Extract from @tanenhaus1995integration. \label{tanenhaus1995}](img\tanenhaus1995.png){width=55%}
 
 ## Syntactic ambiguities: Snedeker and Trueswell (2004) @snedeker2004developing
 
@@ -75,7 +75,7 @@ Yesterday we talked about syntactic ambiguities and the serial vs. parallel proc
 
 Snedeker and Truswell @snedeker2004developing demonstrated this lexical bias in syntactic parsing using the visual world paradigm. Participants listened to sentences whose verb had either a modifier bias, an instrument bias, or neutral (e.g. Choose/Tickle/Feel the frog with the feather) while looking at visual displays of four objects: a target instrument (a feather), a target animal (a frog holding a feather), a distractor instrument (a candle), and a distractor animal (an animal holding a candle). In the one-referent condition, the distractor animal is different from the target animal (a leopard holding a candle) while in the two-referent condition, the distractor animal is the same as the target (a frog holding a candle). 
 
-![Sample visual display in Snedeker and Truswell (2004). Extract from @snedeker2004developing. \label{snedeker2004visual}](img/snedeker2004visual.jpg){width=40%}
+![Sample visual display in Snedeker and Truswell (2004). Extract from @snedeker2004developing. \label{snedeker2004visual}](img/snedeker2004visual.jpg){width=35%}
 
 Results showed that both the visual context and the lexical bias affected listeners' eye movements (in an additive manner). One referent scenes, as compared with two referent scenes, increased measures of the instrument interpretation and decreased measures of the modifier interpretation. Likewise, as the tendency of the verb to appear with an instrument phrase increased, measures of an instrument interpretation increased and measures of a modifier interpretation decreased. On the issue of lexical bias in syntactic ambiguity, these results clearly show that lexical bias has an influence on the initial syntactic structure comprehenders build for ambiguous sentences. On top of this, these results also show that the visual context has as well an effect on the initial interpretation of these sentences. 
 
@@ -108,6 +108,8 @@ On the other side of predictive processing, researchers have been investigating 
 ## Pragmatic inferencing 
 
 ### When do we derive scalar implicatures? @huang2009online, @huang2011logic
+
+
 
 One of the strengths of the visual world paradigm is that eye movements are constantly recorded, thus we do not need to rely on participants' responses to a target or critical word (i.e. we know what happens before and after the critical word). This means that with the visual world paradigm, we get insights into not only that something happens, but also when it happens. 
 
