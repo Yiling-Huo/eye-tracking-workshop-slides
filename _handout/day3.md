@@ -45,7 +45,7 @@ One advantage of the visual world paradigm compared to other psycholinguistic pa
 
 ## The linking hypothesis
 
-Data collected in a visual world experiment is essentially the gaze position at particular time points in each trial. How to link these position data with language processing? (Because you may realise that eye movements are not as simple as "we always look at what's mentioned".) The assumption that provides the link between language processing and eye movements in the visual world is essentially that **the activation of a linguistic representation determines the probability that a participant will shift attention to the corresponding picture and thus make a saccadic eye movement to fixate it**. Therefore, when gaze positions are averaged across multiple trials, researchers can calculate the proportion/probability of looks to the target object, representing activation of the target lexical item. 
+Data collected in a visual world experiment is essentially the gaze position at particular time points in each trial. How to link these position data with language processing? (Because you may realise that eye movements are not as simple as "we always look at what's mentioned".) The assumption that provides the link between language processing and eye movements in the visual world is essentially that **the activation of a linguistic representation determines the probability that a participant will shift attention to the corresponding picture and thus make a saccadic eye movement to fixate it**. Therefore, when gaze positions are averaged across multiple trials, researchers can calculate the proportion/probability of looks to the target object, representing activation of the target lexical item^[When you read visual world eye-tracking papers, remember to pay attention to whether the researchers have applied a time shift to their data. It is well established that programming a saccadic eye movement takes approximately 200ms [@matin1993saccadic]. This means that any alterations in eye movements attributable to changes in activation levels are observable only after this 200ms interval. Hence, some visual world researchers opt to adjust the timestamps in their data by 200ms to better align the data with the activation levels. This used to be somewhat popular around a decade or two ago. So when you read a visual world eye-tracking paper, read their figure captions to find out whether they've shifted time. ]. 
 
 ![Proportion of looks to each object in the visual display when listening to instructions such as "Pick up the beaker". Extract from @allopenna1998tracking. \label{allopenna}](img\allopenna.png){width=45%}
 
@@ -85,9 +85,9 @@ Yesterday we covered some reading eye-tracking studies that addressed incrementa
 
 ### Altmann & Kamide (1999) @altmann1999incremental {-}
 
-Altmann and Kamide @altmann1999incremental presented listeners with visual displays showing, e.g., a boy, a cake, and some toys, while the listeners heard sentences such as "The boy will eat/move the cake.". Eye movements revealed that listeners were more likely to look at the target object (cake) prior to its onset when the verb was constraining (eat) than non-constraining (move). 
-
 ![Sample visual display in Altmann & Kamide (1999). Extract from @altmann1999incremental. \label{altmann1999visual}](img/altmann1999visual.jpg){width=40%}
+
+Altmann and Kamide @altmann1999incremental presented listeners with visual displays showing, e.g., a boy, a cake, and some toys, while the listeners heard sentences such as "The boy will eat/move the cake.". Eye movements revealed that listeners were more likely to look at the target object (cake) prior to its onset when the verb was constraining (eat) than non-constraining (move). 
 
 ![Proportion of looks to the target object (e.g. cake). Extract from @altmann1999incremental. \label{altmann1999result}](img/altmann1999result.gif){width=60%}
 
