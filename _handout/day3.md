@@ -3,7 +3,7 @@ title: "Introduction to the Eye-tracking Method and its Application in Language 
 subtitle: "Day 3: Spoken Language Processing in a Visual Context"
 author: "Yiling Huo"
 date: \today
-bibliography: [eye-tracking-method.bib, P:\\Literature\\citations-merged.bib, P:\\Literature\\references.bib]
+bibliography: [P:\\Literature\\citations-merged.bib, P:\\Literature\\references.bib, eye-tracking-method.bib]
 csl: elsevier-vancouver.csl
 reference-section-title: "References"
 
@@ -77,7 +77,7 @@ Snedeker and Truswell @snedeker2004developing demonstrated this lexical bias in 
 
 ![Sample visual display in Snedeker and Truswell (2004). Extract from @snedeker2004developing. \label{snedeker2004visual}](img/snedeker2004visual.jpg){width=35%}
 
-Results showed that both the visual context and the lexical bias affected listeners' eye movements (in an additive manner). One referent scenes, as compared with two referent scenes, increased measures of the instrument interpretation and decreased measures of the modifier interpretation. Likewise, as the tendency of the verb to appear with an instrument phrase increased, measures of an instrument interpretation increased and measures of a modifier interpretation decreased. On the issue of lexical bias in syntactic ambiguity, these results clearly show that lexical bias has an influence on the initial syntactic structure comprehenders build for ambiguous sentences. On top of this, these results also show that the visual context has as well an effect on the initial interpretation of these sentences. 
+Results showed that both the visual context and the lexical bias affected listeners' eye movements (in an additive manner). One referent scenes, as compared with two referent scenes, increased measures of the instrument interpretation and decreased measures of the modifier interpretation. Likewise, as the tendency of the verb to appear with an instrument phrase increased, measures of an instrument interpretation increased and measures of a modifier interpretation decreased. On the issue of lexical bias in syntactic ambiguity, these results clearly show that lexical bias has an influence on the initial syntactic structure comprehenders build for ambiguous sentences. On top of this, these results also show that the visual context has an effect on the initial interpretation of these sentences. 
 
 ## Incrementality in sentence processing
 
@@ -109,8 +109,6 @@ On the other side of predictive processing, researchers have been investigating 
 
 ### When do we derive scalar implicatures? @huang2009online, @huang2011logic
 
-
-
 One of the strengths of the visual world paradigm is that eye movements are constantly recorded, thus we do not need to rely on participants' responses to a target or critical word (i.e. we know what happens before and after the critical word). This means that with the visual world paradigm, we get insights into not only that something happens, but also when it happens. 
 
 In a series of studies that investigated the time-course of scalar implicatures, Huang and Snedeker @huang2009online, @huang2011logic asked participants to listen to utterances such as “Point to the girl that has some of the socks” while viewing a display in which one girl had two of four socks and another girl had three of three soccer balls (a phonological onset overlap competitor). The lexical semantics of “some” denote a quantity greater than one (i.e., some-and-possibly-all), but the word is usually interpreted with an ‘upper boundary’ (i.e., some-and-not-all). Linguistic theories argue that the meaning of "some" includes the meaning of "all" by default while the implication of "some" meaning "not all" is derived later as an inference. Indeed, eye movements showed that "some" is initially interpreted as compatible with "all" (looks to the girl with two socks did not exceed those to the girl with three/all soccer balls upon presentation of "some"), and participants only started to exclude referents compatible with "all" approximately 800ms later. 
@@ -131,6 +129,6 @@ Over the last couple of decades, the visual world paradigm has allowed us to gai
 
 # Read more on this... {-}
 
-Huettig, F., Rommers, J., & Meyer, A. S. (2011). Using the visual world paradigm to study language processing: A review and critical evaluation. *Acta psychologica*, 137(2), 151-171.
+Huettig, F., Rommers, J., & Meyer, A. S. (2011). Using the visual world paradigm to study language processing: A review and critical evaluation. *Acta Psychologica*, 137(2), 151-171.
 
 Tanenhaus, M. K. (2007). Eye movements and spoken language processing. In *Eye Movements* (pp. 443-II). Elsevier.
